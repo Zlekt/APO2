@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #512E5F;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.IncomeAndOutComeController">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="58.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#openHistory" style="-fx-background-color: #17202A; -fx-border-color: #F4D03F;" text="Check History" textFill="WHITE" />
+         </children></HBox>
+      <HBox alignment="CENTER" prefHeight="81.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="amount" alignment="CENTER" promptText="Enter the amount" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="81.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#calculateOutcomes" prefHeight="84.0" prefWidth="118.0" style="-fx-background-color: #17202A; -fx-border-color: #F4D03F;" text="Outcome" textFill="WHITE" />
+            <Button mnemonicParsing="false" onAction="#calculateIncomes" prefHeight="84.0" prefWidth="118.0" style="-fx-background-color: #17202A; -fx-border-color: #F4D03F;" text="Income" textFill="WHITE" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="81.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="feedback" alignment="CENTER" prefHeight="67.0" prefWidth="392.0" promptText="Enter the reason of out/income" />
+         </children>
+      </HBox>
+      <HBox prefHeight="27.0" prefWidth="600.0" />
+      <HBox alignment="CENTER" prefHeight="27.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" style="-fx-background-color: WHITE;" text="Current amount:" />
+            <Label fx:id="currentAmount" prefHeight="17.0" prefWidth="470.0" style="-fx-background-color: WHITE;" />
+         </children></HBox>
+   </children>
+</VBox>

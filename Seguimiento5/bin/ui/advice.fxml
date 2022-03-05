@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdviceController">
+   <children>
+      <VBox prefHeight="241.0" prefWidth="634.0">
+         <children>
+            <Label alignment="CENTER" minHeight="200.0" minWidth="500.0" prefHeight="264.0" prefWidth="634.0" text="ENTER ONLY NUMBERS!!!">
+               <font>
+                  <Font size="52.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</VBox>
