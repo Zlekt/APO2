@@ -23,11 +23,8 @@ public class MobilitySecretary {
 		FileReader fileReader;
 		try {
 			fileReader = new FileReader(route);
-			FileReader secondFileReader = new FileReader("src\\Datos2.csv");
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
-			BufferedReader secondBufferedReader = new BufferedReader(secondFileReader);
 			bufferedReader.readLine();
-			secondBufferedReader.readLine();
 			
 			while(bufferedReader.ready()) {
 				
@@ -40,16 +37,8 @@ public class MobilitySecretary {
 				String brand = data[3];
 				billboardList.add(new Billboard(width,height,inUse,brand));
 				
-				String[] secondData = line.split("\\|");
-				int secondWidth = Integer.parseInt(secondData[0]);
-				int secondHeight = Integer.parseInt(secondData[1]);
-				boolean secondInUse = Boolean.parseBoolean(secondData[2]);
-				String secondBrand = secondData[3];
-				billboardList.add(new Billboard(secondWidth,secondHeight,secondInUse,secondBrand));
-				
 			}
 			bufferedReader.close();
-			secondBufferedReader.close();
 			
 			FileOutputStream fileOut = new FileOutputStream("src\\Billboards.csv");
 			ObjectOutputStream output = new ObjectOutputStream(fileOut);
