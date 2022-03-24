@@ -1,0 +1,26 @@
+25
+Corea del Sur;5000;40;20
+Japón;400;399;150
+China;250;700;123
+Taiwán;1000;19;67
+Rusia;4214;124;908
+Tailandia;153;24;8
+Bélgica;241;2;1
+Lituania;9;2;10
+Luxemburgo;90;21;2
+Malta;12;2;1
+Mónaco;94;4;4
+Andorra;11;2;0
+Italia;1;2;3
+USA;0;0;0
+Alemania;3;3;3
+Guatemala;90000;20000;1312
+Austria;543;238;0
+Bielorrusia;9;9;9
+Moldavia;84;23;0
+Barbados;109;798;654
+Guadalupe;0;0;0
+Islas Turcas y Caicos;123931043;1;1
+Granada;4;4;4
+Montserrat;2342;3;3
+Caribe Neerlandés;16;43;0
